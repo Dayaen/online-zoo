@@ -1,0 +1,518 @@
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* -----------------------------------------------------------------------
+------------------------------after reset code-------------------------
+----------------------------------------------------------------------- */
+@font-face {
+  font-family: robo;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+body {
+  width: 1600px;
+  margin: auto;
+  /* border: 1px solid red; */
+  font-family: robo;
+}
+.allheader {
+  position: relative;
+  width: 1600px;
+  height: 80px;
+  top: 0px;
+  background: #000000;
+  backdrop-filter: blur(2px);
+}
+.onlyh1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 80.49px;
+  height: 50.91px;
+  left: 220.75px;
+  top: 14px;
+  font-weight: 400;
+  font-size: 19.0145px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  border: 1.18841px solid #ffffff;
+}
+.navigation {
+  margin-left: 310px;
+}
+nav > ul {
+  display: flex;
+  list-style-type: none;
+}
+nav > ul > li {
+  margin-left: 57px;
+  margin-top: 29px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  color: #ffffff;
+}
+.orange {
+  color: #fe9013;
+}
+.allheader a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.owner {
+  position: absolute;
+  width: 105px;
+  height: 22px;
+  left: 1275px;
+  top: 29px;
+  font-family: rob;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #ffffff;
+}
+/* -----------------------------------------------------------------
+--------------------after navigation ----------------------------
+----------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.giantpanda {
+  background-color: #f9804b;
+  position: relative;
+  height: 780px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+.circle {
+  position: absolute;
+  width: 465px;
+  height: 465px;
+  left: 807px;
+  top: 90px;
+}
+.orangetext {
+  position: absolute;
+  width: 500.31px;
+  height: 400px;
+  left: 882px;
+  top: 164px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 106.496px;
+  line-height: 75%;
+  letter-spacing: 3px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 82px;
+}
+.favorite {
+  color: #ffee2e;
+}
+.stylebutton {
+  position: absolute;
+  width: 298px;
+  height: 54px;
+  left: 983px;
+  top: 630px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+  text-align: center;
+  font-style: normal;
+  font-family: rob;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 300%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* .panda {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: 92px;
+  left: 50%;
+} */
+
+ul {
+  width: 70%;
+}
+
+.navigation2 {
+  background-color: #000000;
+  height: 80px;
+  color: #ffffff;
+  margin-left: 333px;
+}
+
+.navigation2 ul li {
+  color: #ffffff;
+  list-style: none;
+  display: inline-block;
+  margin-left: 49px;
+  font-size: 16px;
+}
+.navigation2 a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.orengeabout {
+  color: orange;
+}
+/* .favoriteyellow {
+    color: #FFEE2E;
+} */
+
+/* .startpage p {
+  font-size: 80px;
+  width: 500.31px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+} */
+
+h2 {
+  font-size: 45px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: auto;
+  /* margin-top: 100px; */
+  font-size: 55px;
+  font-weight: 300;
+  color: orangered;
+  width: 500px;
+}
+
+h4 {
+  margin: auto;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 300;
+  color: orange;
+  width: 900px;
+}
+h5 {
+  margin: auto;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 300;
+  color: orange;
+  width: 1000px;
+}
+
+.watchonline {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  width: 400px;
+  height: 55px;
+  font-weight: bolder;
+  font-size: 20px;
+  background-color: orange;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 25px;
+  /* margin-bottom: -200px; */
+  /* display: inline; */
+}
+.oldmantext {
+    position: relative;
+    height: 403px;
+    left: 219px;
+    right: 220px;
+    top: 100px;
+  }
+  .oldmantext img {
+    position: relative;
+    width: 609px;
+    height: 403px;
+    left: 0px;
+    top: 0px;
+  }
+.backstage {
+    width: 465px;
+    word-wrap: break-word;
+  }
+  .backstage h2 {
+    position: absolute;
+    height: 116px;
+    left: 696px;
+    right: 0px;
+    top: 0px;
+    font-family: rob;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333b41;
+    display: flex;
+  }
+  .backstagep1 {
+    position: absolute;
+    height: 42px;
+    left: 696px;
+    right: 0px;
+    top: 136px;
+    font-family: rob;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333b41;
+  }
+  .backstagep2 {
+    position: absolute;
+    width: 217px;
+    height: 29px;
+    left: 696px;
+    top: 232px;
+    font-family: rob;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333b41;
+  }
+  .backstagep3 {
+    position: absolute;
+    height: 105px;
+    left: 696px;
+    right: 0px;
+    top: 295px;
+    font-family: rob;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333b41;
+  }
+  .flower1 {
+    position: relative;
+    width: 293px;
+    height: 605px;
+    left: 1400px;
+    top: 12px;
+  }
+
+.wilderness {
+  width: 552px;
+  height: 403px;
+}
+
+.flower2 {
+  margin-top: 675px;
+  float: left;
+}
+
+.flower3 {
+  float: right;
+}
+.mainanimalsection{
+    margin-top: 180px;
+}
+.animalssection {
+  display: inline;
+}
+
+.donationsection {
+  background-color: blue;
+  width: 1600px;
+  height: 1004px;
+  margin: auto;
+  margin-top: 270px;
+  background-color: rgb(248, 199, 159);
+  padding: 100px;
+}
+
+.subdonation {
+  margin: auto;
+  background: rgba(253, 253, 255, 0.52);
+  border-radius: 20px;
+  width: 1200px;
+  height: 835px;
+  padding: 50px;
+}
+
+.button-donation {
+  width: 400px;
+  height: 55px;
+  font-weight: bolder;
+  font-size: 20px;
+  background-color: orange;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 25px;
+  margin-top: 150px;
+  margin-left: 300px;
+}
+
+.handandmonkey {
+  margin-top: 40px;
+  margin-left: 70px;
+}
+
+.arrow {
+  margin-top: 0;
+  margin-left: 70px;
+}
+
+.testsection {
+  margin-left: 100px;
+  margin-top: 100px;
+  background-color: #ffffff;
+  height: 575px;
+}
+.subtestsection {
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+  width: 300px;
+  height: 800px;
+  background-color: lightgrey;
+  height: 391px;
+  width: 268px;
+  overflow-y: hidden;
+}
+
+.comment {
+  width: 237px;
+  height: 309px;
+}
+
+.line1 {
+  margin-top: 20px;
+  margin-left: 250px;
+  border-radius: 0;
+  width: 15%;
+  height: 10px;
+  display: block;
+  background-color: orange;
+}
+.line2 {
+  margin-top: 20px;
+  border-radius: 0;
+  width: 35%;
+  height: 10px;
+  display: block;
+  background-color: gray;
+}
+
+.line {
+  display: flex;
+}
+.part {
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 0;
+  background-color: orange;
+  width: 100px;
+  border: 0;
+}
+
+footer {
+  margin-top: 200px;
+  background-color: #000000;
+  height: 443px;
+  width: 1600px;
+  /* margin: auto; */
+}
+
+.button-last {
+  background: orange;
+  width: 300px;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  margin-left: 50px;
+}
+
+.peticon {
+  margin: 50px;
+}
+
+.subscribesection {
+  display: flex;
+  /* justify-content: space-around; */
+  /* flex-direction: column; */
+}
+
+label {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+input {
+  color: #ffffff;
+  border: 1px orangered solid;
+  background-color: #000000;
+  margin-right: 10px;
+}
+
+.sub-subscribesection {
+  margin: 50px 0 0 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.allinput {
+  margin-top: 10px;
+  display: flex;
+}
+
+.socimg {
+  display: block;
+  margin: 0 0 5px 50px;
+}
+
+.owner2 {
+  color: #ffffff;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+.last-container {
+  display: flex;
+}
